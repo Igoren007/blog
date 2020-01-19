@@ -1,0 +1,19 @@
+@import 'libs/bootstrap-reboot.min.scss';
+@import 'libs/font';
+@import 'base/variables';
+
+* {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+.container { 
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+@import 'blocks/header.scss';
+@import 'blocks/menu.scss';
+@import 'blocks/main.scss';
+@import 'blocks/news.scss';
+@import 'base/media.scss';

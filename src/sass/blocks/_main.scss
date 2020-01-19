@@ -1,0 +1,12 @@
+.main {
+    width: 100%;
+    display: flex;
+    &__topics {
+        flex-basis: 80%;
+        background-color: #B0C4DE;
+    }
+    &__side {
+        flex-basis: 20%;
+        background-color: #20B2AA;
+    }
+}
