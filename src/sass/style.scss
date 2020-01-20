@@ -3,9 +3,8 @@
 @import 'base/variables';
 
 * {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
-    //background-color: green;
 }
 
 body {
@@ -22,4 +21,5 @@ body {
 @import 'blocks/main.scss';
 @import 'blocks/news.scss';
 @import 'blocks/button.scss';
+@import 'blocks/footer.scss';
 @import 'base/media.scss';
