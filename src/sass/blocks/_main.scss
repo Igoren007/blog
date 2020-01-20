@@ -1,12 +1,15 @@
 .main {
+    margin-top: 20px;
     width: 100%;
     display: flex;
+    background-color: white;
     &__topics {
         flex-basis: 80%;
-        background-color: #B0C4DE;
+        //background-color: #B0C4DE;
+        border-right: 1px solid #00284E;
     }
     &__side {
         flex-basis: 20%;
-        background-color: #20B2AA;
+        //background-color: #20B2AA;
     }
 }

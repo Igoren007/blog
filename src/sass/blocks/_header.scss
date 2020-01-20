@@ -1,16 +1,18 @@
 .header {
+    background-color: white;
     &__info {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background-color: cyan;
+        //background-color: cyan;
         height: 25px;
+        border-bottom: 1px solid #01355c;
         a {
             margin: 5px;
-            color: #717171;
-            font-family: Verdana;
+            color: #00284E;
+            font-family: 'Roboto';
             font-size: 12px;
-            font-weight: 400;
+            font-weight: 700;
             line-height: 24px;
             text-transform: uppercase;
         }
@@ -23,10 +25,10 @@
     }
     &__date {
         text-transform: uppercase;
-        color: #717171;
-        font-family: Verdana;
+        color: #00284E;
+        font-family: 'Roboto';
         font-size: 12px;
-        font-weight: 400;
+        font-weight: 700;
         line-height: 24px;
     }
 }

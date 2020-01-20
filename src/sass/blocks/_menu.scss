@@ -2,7 +2,9 @@
     display: flex;
     justify-content: space-between;
     height: 40px;
-    background-color: yellow;
+    //background-color: #00284E;
+    background-color: #01355c;
+    
     ul {
         display: flex;
         align-items: center;
@@ -12,7 +14,7 @@
     &__item {
         padding: 0 10px;
         list-style-type: none;
-        color: #717171;
+        color: white;
         font-family: "Open Sans";
         font-size: 16px;
         font-weight: 400;
