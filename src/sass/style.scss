@@ -8,7 +8,8 @@
 }
 
 body {
-    background-color: #9baa79;
+    //background-color: #9baa79;
+    background: url('../img/fon.jpg') repeat left top;
 }
 
 .container { 
@@ -22,4 +23,5 @@ body {
 @import 'blocks/news.scss';
 @import 'blocks/button.scss';
 @import 'blocks/footer.scss';
+@import 'blocks/forms.scss';
 @import 'base/media.scss';
