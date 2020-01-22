@@ -1,10 +1,10 @@
 .header {
     background-color: white;
+    //height: 75px;
     &__info {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        //background-color: cyan;
         height: 25px;
         border-bottom: 1px solid #01355c;
         a {
@@ -32,5 +32,26 @@
         font-size: 12px;
         font-weight: 700;
         line-height: 24px;
+    }
+    &__logo {
+        //padding-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        //justify-content: space-evenly;
+        align-items: center;
+        height: 40px;
+        width: 200px;
+        margin-left: 30px;
+        img {
+            height: 100%;
+            width: 150px;
+        }
+    }
+    &__descr {
+        color: #00284E;
+        //font-family: 'Roboto';
+        font-size: 12px;
+        font-weight: 400;
+        font-style: italic;
     }
 }
