@@ -7,14 +7,22 @@
     margin: 0;
 }
 
+html {
+    height: 100%;
+}
+
 body {
     //background-color: #9baa79;
     background: url('../img/fon.jpg') repeat left top;
+    height: 100%;
 }
 
 .container { 
     max-width: 1300px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 @import 'blocks/header.scss';
@@ -24,4 +32,5 @@ body {
 @import 'blocks/button.scss';
 @import 'blocks/footer.scss';
 @import 'blocks/forms.scss';
+@import 'blocks/reklama.scss';
 @import 'base/media.scss';
