@@ -6,10 +6,10 @@
         justify-content: space-between;
         align-items: center;
         height: 25px;
-        border-bottom: 1px solid #01355c;
+        border-bottom: 1px solid $header_info;
         a {
             margin: 5px;
-            color: #00284E;
+            color: $header_info;
             font-family: 'Roboto';
             font-size: 12px;
             font-weight: 700;
@@ -27,17 +27,15 @@
     &__date {
         text-transform: uppercase;
         font-style: italic;
-        color: #00284E;
+        color: $header_info;
         font-family: 'Roboto';
-        font-size: 12px;
+        font-size: 13px;
         font-weight: 700;
         line-height: 24px;
     }
     &__logo {
-        //padding-bottom: 10px;
         display: flex;
         flex-direction: column;
-        //justify-content: space-evenly;
         align-items: center;
         height: 40px;
         width: 200px;
@@ -48,8 +46,7 @@
         }
     }
     &__descr {
-        color: #00284E;
-        //font-family: 'Roboto';
+        color: $header_info;
         font-size: 12px;
         font-weight: 400;
         font-style: italic;

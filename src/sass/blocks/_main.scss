@@ -3,14 +3,13 @@
     margin: 20px 0;
     width: 100%;
     display: flex;
-    background-color: white;
+    background-color: $main_background;
     &__topics {
-        flex-basis: 80%;
-        //background-color: #B0C4DE;
-        border-right: 1px solid #00284E;
+        flex-basis: 75%;
+        border-right: 1px solid $menu_footer;
     }
     &__side {
-        flex-basis: 20%;
+        flex-basis: 25%;
         padding: 10px;
         &-tags {
             margin-top: 20px;

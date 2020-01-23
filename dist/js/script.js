@@ -1,3 +1,5 @@
+$(document).ready(function(){
+  
   function zero_first_format(value)
     {
         if (value < 10)
@@ -19,3 +21,19 @@
 
     /* выводим текущую дату и время на сайт в блок с id "current_date_time_block" */
     document.getElementById('current_date_time_block').innerHTML = date_time();
+
+    //smooth scroll and pageup
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 500) {
+            $('.pageup').fadeIn();
+        } else {
+            $('.pageup').fadeOut();
+        }
+    });
+
+    $("a[href^='#']").click(function(){
+        const _href = $(this).attr("href");
+        $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
+        return false;
+    });
+});

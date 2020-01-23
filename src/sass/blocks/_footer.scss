@@ -1,7 +1,7 @@
 .footer {
     flex: 0 0 auto;
     padding: 20px 20px 5px 20px;
-    background-color: #191919;
+    background-color: $menu_footer;
     &__wrap {
         display: flex;
         justify-content: space-around;
@@ -11,10 +11,10 @@
         flex-direction: column;
         align-items: center;
         a {
-            color: white;
+            color: $white_color;
             &:hover {
                 text-decoration: none;
-                color: #FFD700;
+                color: $footer_hover;
             }
         }
     }
@@ -23,10 +23,10 @@
             list-style-type: none;
         }
         &-item {
-            color: white;
+            color: $white_color;
             &:hover {
                 text-decoration: none;
-                color: #FFD700;
+                color: $footer_hover;
             }
         }
     }
@@ -50,16 +50,16 @@
         display: flex;
         justify-content: space-around;
         a {
-            color: white;
+            color: $white_color;
             &:hover {
                 text-decoration: none;
-                color: #FFD700;
+                color: $footer_hover;
             }
         }
     }
     &__year {
         margin-top: 20px;
         text-align: center;
-        color: white;
+        color: $white_color;
     }
 }

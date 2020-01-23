@@ -1,19 +1,21 @@
 .search {
+    
     &-form {
     display: flex;
     justify-content: flex-start;
     &__input {
+        width: 100%;
         padding: 3px 5px;
-        border: 1px solid #191919;
-        color: #191919;
+        border: 1px solid $menu_footer;
+        color: $menu_footer;
         }
     }
 }
 
 .button-search {
     width: 33px;
-    border: 1px solid #191919;
-    background-color: #ffa500;
+    border: 1px solid $menu_footer;
+    background-color: $search_btn;
     border-left: none;
     &_img {
         width: 20px;

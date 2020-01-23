@@ -12,7 +12,6 @@ html {
 }
 
 body {
-    //background-color: #9baa79;
     background: url('../img/fon.jpg') repeat left top;
     height: 100%;
 }
@@ -33,4 +32,5 @@ body {
 @import 'blocks/footer.scss';
 @import 'blocks/forms.scss';
 @import 'blocks/reklama.scss';
+@import 'blocks/pageup.scss';
 @import 'base/media.scss';
