@@ -24,4 +24,16 @@
             }
         }
     }
+    &__next {
+        display: flex;
+        justify-content: center;
+        a {
+            padding: 5px 10px;
+            margin: 0 10px;
+            background-color: $search_btn;
+            border: 1px solid $menu_footer;
+            color: $news_descr;
+            font-weight: 700;
+        }
+    }
 }
