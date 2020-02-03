@@ -1,0 +1,45 @@
+.article {
+    padding: 20px;
+    &__title {
+        text-align: center;
+        color: $news_title;
+    }
+    &__info {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 20px;
+        color: $news_date;
+        font-size: 14px;
+    }
+    &__about {
+        margin-left: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        img {
+            height: 15px;
+            width: 15px;
+        }
+    }
+    &__date {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px;
+        width: 110px;
+        img {
+            height: 15px;
+            width: 15px;
+        }
+    }
+    &__category {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 20px;
+    }
+    &__text {
+        text-align: justify;
+        text-indent: 40px;
+    }
+}
