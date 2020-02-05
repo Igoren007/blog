@@ -2,36 +2,26 @@
     flex: 0 0 auto;
     padding: 20px 20px 5px 20px;
     background-color: $menu_footer;
-    &__wrap {
-        display: flex;
-        justify-content: space-around;
-    }
     &__info {
         display: flex;
-        flex-direction: column;
+        justify-content: center;
         align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
         a {
+            margin: 0 10px;
             color: $white_color;
             &:hover {
                 text-decoration: none;
                 color: $footer_hover;
             }
         }
-    }
-    &__menu {
-        li {
-            list-style-type: none;
-        }
-        &-item {
-            color: $white_color;
-            &:hover {
-                text-decoration: none;
-                color: $footer_hover;
-            }
-        }
-    }
+    }  
     &__social {
-
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
     }
     &__connect {
         margin-bottom: 20px;
@@ -44,19 +34,7 @@
     &__metrik {
 
     }
-    
-    &__contact {
-        padding: 0 20%;
-        display: flex;
-        justify-content: space-around;
-        a {
-            color: $white_color;
-            &:hover {
-                text-decoration: none;
-                color: $footer_hover;
-            }
-        }
-    }
+
     &__year {
         margin-top: 20px;
         text-align: center;
