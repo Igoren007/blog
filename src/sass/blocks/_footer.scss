@@ -3,11 +3,14 @@
     padding: 20px 20px 5px 20px;
     background-color: $menu_footer;
     &__info {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
         margin-bottom: 20px;
+        ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
         a {
             margin: 0 10px;
             color: $white_color;
@@ -17,23 +20,13 @@
             }
         }
     }  
-    &__social {
+    &__sidebar {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
     }
-    &__connect {
-        margin-bottom: 20px;
-        img {
-            margin: 0 10px;
-            width: 30px;
-            height: 30px;
-        }
-    }
-    &__metrik {
 
-    }
 
     &__year {
         margin-top: 20px;

@@ -1,6 +1,5 @@
 .header {
     background-color: white;
-    //height: 75px;
     &__info {
         display: flex;
         justify-content: space-between;
@@ -11,6 +10,7 @@
             margin: 5px;
             color: $header_info;
             font-family: 'Roboto';
+            font-style: italic;
             font-size: 12px;
             font-weight: 700;
             line-height: 24px;
@@ -19,15 +19,13 @@
     }
     &__title {
         padding: 10px 20px;
-       // height: 100px;
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
     &__date {
         text-transform: uppercase;
-        font-style: italic;
-        color: $header_info;
+        color: $date;
         font-family: 'Roboto';
         font-size: 13px;
         font-weight: 700;

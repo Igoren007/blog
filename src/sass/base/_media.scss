@@ -98,11 +98,12 @@
     .header {
         &__title {
             padding: 10px 20px;
-            height: 80px;
+            max-height: 180px;
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
             align-items: center;
+            margin-bottom: 10px;
         }
         &__logo {
             display: flex;
@@ -123,8 +124,7 @@
 		display: block;
 		position: absolute;
         right: 10px;
-        //top: 105px;
-        top: 28%;
+        top: 50px;
 		transform: translateY(-50%);
 		width: 30px;
         height: 12px;
@@ -156,6 +156,13 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+        }
+    }
+    .reklama {
+        &__header {
+            background-color: green;
+            height: 100%;
+            width: 100%;
         }
     }
 }
